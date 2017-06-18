@@ -1,0 +1,24 @@
+.container{
+	text-align: center;
+}
+
+#computer-text{
+	font-size: 6em;
+}
+
+#user-text{
+	font-size: 6em;
+}
+
+#wins{
+	font-size: 5em;
+	color: green;
+}
+
+#remain{
+	color: red;
+	font-size: 4em;
+}
+#inputs{
+	font-size: 3em;
+}

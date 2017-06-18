@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Psychic Game</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+	<body>
+
+	<div class="container">
+
+		<div class="row">
+				<div class="col-lg-12 jumbotron">
+					<h1> Psychic Game </h1>
+					<h2> Press any key to begin! </h2>
+				</div>
+		</div>
+		
+		<div class= "row">
+				<div class="col-lg-6"> <h3> Step One </h3><h4> You pick a letter </h4>
+					<div class="row">
+						<div class="col-lg-12">
+							<span id="user-text"></span>
+						</div>
+					</div>
+				</div>
+
+			
+				<div class="col-lg-6"> <h3> Step Two</h3><h4> The computer picks</h4>
+					<div class="row">
+						<div class="col-lg-12">
+							<span id="computer-text"><strong> </strong></span>
+						</div>
+					</div>
+				</div>	
+		</div>
+
+		<div class="row">
+				<div class="col-lg-12"> <h2> You Matched </h2>
+					<div class="row">
+						<div class="col-lg-12">
+							<span id="wins"></span>
+						</div>
+					</div>
+				</div>
+		</div>
+
+
+		<div class="row">
+
+				<div class="col-lg-6"> <h2> Letters Already Guessed</h2>
+					<div class="row">
+						<div class="col-lg-12"><span id="inputs"></span>
+						</div>
+					</div>
+				</div>
+
+				
+
+				<div class="col-lg-6"><h2>Guesses Remaining</h2> 
+					<span id="remain"> </span>
+				</div>
+		</div>
+
+
+
+		<script src="assets/javascript/game.js"> </script>
+
+
+
+		
+	</body>
+</html>
